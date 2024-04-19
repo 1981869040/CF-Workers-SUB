@@ -7,7 +7,7 @@ external-controller: :9090
 proxy-providers:
   cl:
     type: http
-    path: ./profiles/cl.yaml
+    #path: ./profiles/cl.yaml
     url: 
     interval: 3600
     health-check:
